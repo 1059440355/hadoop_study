@@ -57,7 +57,6 @@ public class WordCountApp {
 		job.setPartitionerClass(HashPartitioner.class);
 		
 		
-		
 		//提交任务
 //		job.submit();
 		//提交任务，等待任务结束，打印统计信息
